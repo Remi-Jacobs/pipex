@@ -6,7 +6,7 @@
 /*   By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/22 12:28:49 by ojacobs           #+#    #+#             */
-/*   Updated: 2024/08/03 15:19:45 by ojacobs          ###   ########.fr       */
+/*   Updated: 2024/08/04 12:31:09 by ojacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,10 @@ void	pidx(t_struct *ppx, int n, char **argv, char **envp)
 	if (n == 0)
 	{
 		if (ppx->infile < 0)
+		{
+			free_split(ppx->s_path);
 			exit(EXIT_FAILURE);
+		}
 		close(ppx->fd[0]);
 		dup2(ppx->infile, STDIN_FILENO);
 		dup2(ppx->fd[1], STDOUT_FILENO);

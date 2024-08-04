@@ -6,7 +6,7 @@
 /*   By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 16:48:09 by ojacobs           #+#    #+#             */
-/*   Updated: 2024/08/03 14:53:22 by ojacobs          ###   ########.fr       */
+/*   Updated: 2024/08/04 12:36:10 by ojacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,8 @@ void	closeppx(t_struct *ppx)
 {
 	close(ppx->fd[0]);
 	close(ppx->fd[1]);
-	close(ppx->infile);
+	if (ppx->infile > -1)
+		close(ppx->infile);
 	close(ppx->outfile);
 }
 

@@ -6,7 +6,7 @@
 /*   By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/04 20:49:28 by ojacobs           #+#    #+#             */
-/*   Updated: 2024/07/31 16:35:47 by ojacobs          ###   ########.fr       */
+/*   Updated: 2024/08/04 12:16:40 by ojacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,8 +52,8 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
-int		ft_printf(const char *str, ...);
-char	*get_next_line(int fd);
-char	*get_next_line_bonus(int fd);
+// int		ft_printf(const char *str, ...);
+// char	*get_next_line(int fd);
+// char	*get_next_line_bonus(int fd);
 
 #endif

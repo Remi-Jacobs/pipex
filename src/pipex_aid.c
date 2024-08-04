@@ -6,7 +6,7 @@
 /*   By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 00:32:53 by ojacobs           #+#    #+#             */
-/*   Updated: 2024/08/02 01:27:56 by ojacobs          ###   ########.fr       */
+/*   Updated: 2024/08/04 12:30:26 by ojacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ char	*amendstr(char *str)
 	return (newstr);
 }
 
-static void	free_split(char **split)
+void	free_split(char **split)
 {
 	int	i;
 

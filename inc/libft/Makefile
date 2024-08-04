@@ -6,7 +6,7 @@
 #    By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/12/20 20:49:10 by ojacobs           #+#    #+#              #
-#    Updated: 2024/05/28 18:45:08 by ojacobs          ###   ########.fr        #
+#    Updated: 2024/08/04 12:16:03 by ojacobs          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,21 +56,21 @@ SRCS =	        ft_atoi.c\
     ft_strtrim.c\
     ft_substr.c\
     ft_tolower.c\
-    ft_toupper.c\
-    ft_printf/ft_print_char.c\
-    ft_printf/ft_printf.c\
-    ft_printf/ft_print_hex.c\
-    ft_printf/ft_print_num.c\
-    ft_printf/ft_print_percent.c\
-    ft_printf/ft_print_str.c\
-    ft_printf/ft_print_unint.c\
-    ft_printf/ft_putaddress.c\
-    ft_printf/ft_putchar.c\
-    ft_printf/ft_putstr.c\
-    getnextline/get_next_line_bonus.c\
-    getnextline/get_next_line.c\
-    getnextline/get_next_line_utils_bonus.c\
-    getnextline/get_next_line_utils.c
+    ft_toupper.c
+    # ft_printf/ft_print_char.c\
+    # ft_printf/ft_printf.c\
+    # ft_printf/ft_print_hex.c\
+    # ft_printf/ft_print_num.c\
+    # ft_printf/ft_print_percent.c\
+    # ft_printf/ft_print_str.c\
+    # ft_printf/ft_print_unint.c\
+    # ft_printf/ft_putaddress.c\
+    # ft_printf/ft_putchar.c\
+    # ft_printf/ft_putstr.c\
+    # getnextline/get_next_line_bonus.c\
+    # getnextline/get_next_line.c\
+    # getnextline/get_next_line_utils_bonus.c\
+    # getnextline/get_next_line_utils.c
 
 OBJ_DIR = obj
 

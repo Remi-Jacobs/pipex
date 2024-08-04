@@ -6,7 +6,7 @@
 /*   By: ojacobs <ojacobs@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/17 16:35:26 by ojacobs           #+#    #+#             */
-/*   Updated: 2024/08/03 15:18:46 by ojacobs          ###   ########.fr       */
+/*   Updated: 2024/08/04 12:30:43 by ojacobs          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,6 +45,7 @@ void	makepath(t_struct *ppx);
 void	accesspath(t_struct *ppx, char *argv);
 void	pidx(t_struct *ppx, int n, char **argv, char **envp);
 void	freeppx(t_struct *ppx);
+void	free_split(char **split);
 char	**split_argument(char *str);
 char	*amendstr(char *str);
 int		check_quote(char *str);
